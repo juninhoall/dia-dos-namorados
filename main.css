@@ -1,0 +1,32 @@
+body {
+    padding:  0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.responseive-img {
+    width: 50%;
+    height: auto;
+}
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-button {
+    min-width: 200px;
+    border: none;
+    color: #fff;
+    background: hotpink;
+    padding: 10px;
+    border-radius: 10px;
+}
+.custom-button:hover {
+    opacity: 0.8;
+}
